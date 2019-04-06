@@ -1,0 +1,14 @@
+Terminal/Console Method :-
+
+1. Using Finder create a folder on your desktop and copy all the kexts you want to install into it.
+2. Open Terminal and change the active path to the folder you created in step 1 using the "CD" command.
+3. Install the Kexts into /Library/Extensions using the following command :-
+Code:
+sudo cp -R *.kext /Library/Extensions
+
+Then rebuild the caches using the following command :-
+
+Code:
+sudo kextcache -i /
+ 
+ reboot
