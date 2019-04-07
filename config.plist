@@ -424,6 +424,8 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
+		<key>ig-platform-id</key>
+		<string>0x3E910003</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -479,6 +481,24 @@
 				g/sPkJCQkJCQ
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>fix rotate</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				ugAAAAA=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleGraphicsDevicePolicy</string>
+				<key>Replace</key>
+				<data>
+				ugUAAAA=
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -491,33 +511,33 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/17/2018</string>
+		<string>12/19/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MP61.88Z.0125.B00.1809171517</string>
+		<string>IM183.88Z.F000.B00.1812191143</string>
 		<key>Board-ID</key>
-		<string>Mac-F60DEB81FF30ACF6</string>
+		<string>Mac-BE088AF8C5EB4FA2</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>F5K308802GUFHDD1M</string>
+		<string>C028303034NJ0PG1F</string>
 		<key>BoardType</key>
-		<integer>11</integer>
+		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>Pro-Enclosure</string>
+		<string>iMac-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
-		<string>0x02</string>
+		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>127.0.0.0.0</string>
+		<string>167.0.0.0.0</string>
 		<key>Family</key>
-		<string>MacPro</string>
+		<string>iMac</string>
 		<key>FirmwareFeatures</key>
-		<string>0xE80FE137</string>
+		<string>0xFC0FE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -527,20 +547,20 @@
 		<key>Mobile</key>
 		<false/>
 		<key>PlatformFeature</key>
-		<string>0x04</string>
+		<string>0x00</string>
 		<key>ProductName</key>
-		<string>MacPro6,1</string>
+		<string>iMac18,3</string>
 		<key>SerialNumber</key>
-		<string>F5KK9093F9VM</string>
+		<string>C02X4WZ4J1GJ</string>
 		<key>SmUUID</key>
-		<string>4F76BC45-EA81-4A36-BDBF-9EF32D8F6AED</string>
+		<string>460E0F13-53E2-4553-9CC2-7AB88D1928BD</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>E8B9D872-2762-574D-9840-703E0184EEDC</string>
+		<string>460E0F13-53E2-4553-9CC2-7AB88D1928BD</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
